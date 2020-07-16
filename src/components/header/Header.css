@@ -1,0 +1,97 @@
+.header {
+  /* Amazon blue */
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header_search {
+  display: flex;
+  /* This search container should use as much room as it can */
+  flex: 1;
+}
+
+.header_searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 4px 0px 0px 4px;
+  outline: none;
+}
+
+.header_searchIcon {
+  /* Amazon orange */
+  background-color: #febd69;
+  padding: 5px;
+  height: 22px !important;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+}
+
+.header_searchIcon:hover {
+  background-color: #cd9042;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_link {
+  color: white;
+  text-decoration: none;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #131921;
+}
+
+/* .header_option:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+} */
+
+.header_border:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.header_option_one {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.header_option_two {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.header_option_basket {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #131921;
+}
+
+.basket_count {
+  color: #cd9042;
+  font-weight: 700;
+  margin: 0 10px;
+}
