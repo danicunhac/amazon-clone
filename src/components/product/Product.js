@@ -1,10 +1,12 @@
 import React from "react";
 import "./Product.css";
 
-import star from "../../images/estrela.png";
+import star from "../../images/star.png";
 import { useStateValue } from "../stateProvider/StateProvider";
 
 function Product({ id, title, image, price, rating }) {
+  // Disabling warning for { basket } since can't keep it empty
+  // eslint-disable-next-line no-unused-vars
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -27,7 +29,7 @@ function Product({ id, title, image, price, rating }) {
         <p>{title}</p>
         <p className="product_price">
           <small>$</small>
-          <strong>{price}</strong>
+          {price}
         </p>
         <div className="product_rating">
           {Array(rating)

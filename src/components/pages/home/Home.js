@@ -1,5 +1,5 @@
 import React from "react";
-import Product from "../product/Product";
+import Product from "../../product/Product";
 import "./Home.css";
 
 function Home() {

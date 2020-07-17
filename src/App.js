@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 import Header from "./components/header/Header";
-import Home from "./components/home/Home";
+import Home from "./components/pages/home/Home";
+import Checkout from "./components/pages/checkout/Checkout";
+import Login from "./components/pages/login/Login";
 
 function App() {
   return (
@@ -14,12 +16,12 @@ function App() {
           <Route path="/checkout">
             <React.Fragment>
               <Header />
-              <h1>Checkout</h1>
+              <Checkout />
             </React.Fragment>
           </Route>
           <Route path="/login">
             <React.Fragment>
-              <h1>Login Page</h1>
+              <Login />
             </React.Fragment>
           </Route>
           {/* This is the default route, / */}
