@@ -11,7 +11,7 @@ Some style changes were made to make it look a bit nicer and faithful to the rea
 
 _Should look like this:_
 
-- Home Page:
+- Home Page
   ![home page](https://i.imgur.com/Y1hzToB.png)
 
 - Sign-In Page
