@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Your can check it right [here!](https://clone-7a5ff.web.app).
+Your can check it right [here!](https://clone-7a5ff.web.app)
 
 ## Amazon Clone!
 
