@@ -37,14 +37,16 @@
 }
 
 .product > button {
+  cursor: pointer;
   background-color: #f0c14b;
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
-  outline-color: #f0c14b;
   border-radius: 4px;
+  outline: none;
   background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
 }
 
 .product > button:hover {
-  background-color: #dbb145;
+  box-shadow: 0 0 3pt 1pt orange;
+  background-color: darkorange;
 }

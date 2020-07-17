@@ -7,7 +7,7 @@ function Home() {
     <div className="home">
       <img
         className="home_image"
-        src="https://images-na.ssl-images-amazon.com/images/G/32/AmazonMusic/2020/Marketing/070620_SummerSitewidePromo/Gateway_Design4/BR-PT_062220_SummerSW_ACQ_GW_Hero_D_1500x600_CV61a._CB428792823_.jpg"
+        src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg"
         alt="Home banner"
       />
 
